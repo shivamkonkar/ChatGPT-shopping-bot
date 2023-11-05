@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Chatbot in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="/styles/gpt.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="/script/gpt.js" defer></script>
+  </head>
+  <body>
+    <button class="chatbot-toggler">
+      <span class="material-symbols-rounded">mode_comment</span>
+      <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+      <header>
+        <h2>Chatbot</h2>
+        <span class="close-btn material-symbols-outlined">close</span>
+      </header>
+      <ul class="chatbox">
+        <li class="chat incoming">
+          <span class="material-symbols-outlined">smart_toy</span>
+          <!-- <p>Hi there 👋<br>How can I help you today?</p> -->
+          <p>Hi there 👋<br>what are you searching for today?</p>
+        </li>
+      </ul>
+      <div class="chat-input">
+        <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+        <span id="send-btn" class="material-symbols-rounded">send</span>
+        <a href="/scraper"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABU0lEQVR4nO1Uy0oDMRSdvY+V9ndGhYG5iQgVv0LoIhlKcSFtdePfWOp3WP0J56QoVKtbH9xMIl04ZFIVRQxcmGFOzrlzck+S5E+uIkNLE0414UoJ81QVJkrgpJOXm58jz8sDRZhrYV4/LjwUYrq/NLkWeGEiJXCu8jItMqzYktjShJH9RnhW0rTjyDO0fOdKoFuHUxI9h7nXuzcbjQWs567zIFaYsbWLMIwRuLYCeZmGsEpg2zUzaS4g8MibDtPpagjb3btdc2cxbyzg/W8i0Mnv1qMFeOZ5E09LCFsQdqIt4hC5gxuFsebC/cGgsQAnlENkN0r0askJR66RWXSqOaEcIpfaMU8LnwkX2+I7rwTMcRT5e4fStG2I6q4KwozJ/XuUTX5xQjlEmswljy9fdvaZMPS2LIouJRL+U9grY8Gys3+RX2VX/8sFkiqEg2+ZqB9dbxtwUadcfb8RAAAAAElFTkSuQmCC"></a>
+      </div>
+    </div>
+
+  </body>
+</html>

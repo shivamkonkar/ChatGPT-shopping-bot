@@ -1,0 +1,138 @@
+body {
+  font-family: 'Inter', sans-serif;
+  display: grid;
+  place-content: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.card-container {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--size-fluid-4);
+  margin: var(--size-fluid-4);
+  max-width: 1600px;
+}
+
+.card {
+  flex: 0 1 400px;
+  box-shadow: var(--shadow-3);
+  padding: var(--size-fluid-3);
+  border-radius: var(--radius-4);
+  background-color: var(--violet-0);
+  display: grid;
+  gap: var(--size-2);
+}
+
+.card__heading {
+  color: var(--purple-10);
+}
+
+.card__content {
+  display: grid;
+  gap: var(--size-2);
+}
+
+.card__btn {
+  background-color: var(--purple-10);
+  color: var(--sand-1);
+  width: max-content;
+  padding: var(--size-fluid-2);
+  border-radius: var(--radius-4);
+  margin-top: var(--size-fluid-1);
+  box-shadow: var(--shadow-2);
+  text-decoration: none;
+  transition: all 250ms var(--ease-squish-3);
+}
+
+.card__btn:is(:hover, :focus) {
+  text-decoration: none;
+  box-shadow: none;
+  transform: scale(.9);
+}
+
+@media(prefers-color-scheme: dark) {
+  html {
+    --shadow-strength: 5%;
+  }
+
+  body {
+    background-image: var(--gradient-23);
+    color: #ccc;
+  }
+
+  .card__heading {
+    color: var(--teal-5);
+  }
+  
+  .card {
+    background-color: var(--gray-8);
+  }
+}
+
+/* #quizWrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#quizQn {
+  padding: 20px;
+  background: #4c93ba;
+  color: #fff;
+  font-size: 24px;
+  border-radius: 10px;
+}
+
+#quizAns {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+#quizAns input[type=radio] {
+  display: none;
+}
+
+#quizAns label {
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#quizAns label.correct {
+  background: #d8ffc4;
+  border: 1px solid #60a03f;
+}
+
+#quizAns label.wrong {
+  background: #ffe8e8;
+  border: 1px solid #c78181;
+}
+
+* {
+  font-family: arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.widget-wrap {
+  width: 600px;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.4); */

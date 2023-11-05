@@ -1,0 +1,45 @@
+[
+    {
+      "question": "Which sounds more like you?",
+      "options": ["Your Personal work style is closer to organized and consistent efforts rather than spontaneous burst of energy.", "You often make decision on a whim."],
+      "Sentence1": ["Structured","Organized","Consistent","Tailored","Effortful"],
+      "Sentence2": ["Versatile","Spontaneous","Eclectic","Effortless","Statement"]
+    },
+    {
+      "question": "Which style resonates with you more when it comes to fashion?",
+      "options": ["You embrace the avant-garde and love to experiment with bold and unconventional outfits.", "You prefer classic elegance and timeless fashion that never goes out of style."],
+      "Sentence1": ["Avant-garde","Experiment","Bold", "Unconventional"],
+      "Sentence2": ["Classic","Elegance","Timeless","Fashion"]    
+    },
+    {
+      "question": "Which sounds more like you?",
+      "options": ["You're a visionary, you envision and imagine what things could be even if unrealistic.", "You're a realist, you're practical and see things for what they realistically are."],
+      "Sentence1": ["Visionary", "Imaginative", "Idealistic", "Creative", "Unrealistic"],
+      "Sentence2": ["Realist", "Practical", "Pragmatic", "Grounded", "Realistic"]    
+    },
+    {
+      "question": "When selecting clothing, which statement best describes your approach?",
+      "options": ["You seek out unique and artistic pieces that make a statement and capture attention.", "You seek out unique and artistic pieces that make a statement and capture attention."],
+      "Sentence1": ["Unique","Artistic","Statement","Attention"],
+      "Sentence2": [ "Comfort","Practicality","Versatile","Everyday"]    
+    },
+    {
+      "question": "When it comes to shopping for clothing, which method do you prefer?",
+      "options": ["I enjoy the convenience of online shopping, exploring a wide variety of options with just a few clicks.", "I prefer the tactile experience of offline shopping, trying on clothes and feeling the fabrics in-store."],
+      "Sentence1": ["Online Shopping","Convenience","Variety","E-commerce"],
+      "Sentence2": [ "Offline Shopping","Tactile Experience","In-Store","Boutiques"]    
+    },
+    {
+      "question": "Which sounds more like you?",
+      "options": ["You talk to lot of different people at parties.", "You don't like to draw attention to youself and keep to the background."],
+      "Sentence1": ["Social", "Outgoing", "Engaging", "Conversational", "Networking"],
+      "Sentence2": ["Reserved", "Inconspicuous", "Low-key", "Modest", "Unobtrusive"]    
+    },
+    {
+      "question": "What best describes your clothing shopping strategy?",
+      "options": [" I prefer investing in a few high-quality, statement pieces, even if they come with a higher price tag.", " I like to shop for a larger quantity of clothing items, even if it means choosing budget-friendly options."],
+      "Sentence1": ["High-Quality","Statement Pieces","Investing","Quality over Quantity"],
+      "Sentence2": [ "Quantity","Budget-Friendly","Affordable","More Options"]    
+    }
+  ]
+  
